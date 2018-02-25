@@ -43,6 +43,14 @@ body {
     padding: 0px;
 }
 
+.table i {  
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+
 div {
     font-size: 28px;
     color: white;
