@@ -41,7 +41,14 @@ body {
     font-size: 28px;
     font-weight: bold;
     padding: 0px;
+    text-align: right;
 }
+
+/* .table td.item-label, .table th.item-label {
+    text-align: left;
+} */
+
+td:first-child { text-align: left; }
 
 .table i {  
     font-size: 22px;
@@ -57,11 +64,14 @@ div {
 }
 
 .hint-text {
-    font-style: italic
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .flavor-text {
     font-weight: normal;
+    font-style: italic;
 }
 
 .title-data {
@@ -73,4 +83,10 @@ div {
     width: auto;
     height: 250px;
     margin-bottom: 20px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
